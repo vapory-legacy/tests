@@ -16,11 +16,6 @@
                 },
                 "network" : ["Frontier", "Homestead", "EIP150", "EIP158"],
                 "result" : {
-                    "0x0f572e5295c57f15886f9b263e2f6d2d6c7b5ec6" : {
-                        "storage" : {
-                            "0x00" : "1"
-                        }
-                    }
                 }
             },
             {   "indexes" : {
@@ -30,11 +25,6 @@
                 },
                 "network" : ["Byzantium"],
                 "result" : {
-                    "0x0f572e5295c57f15886f9b263e2f6d2d6c7b5ec6" : {
-                        "storage" : {
-                            "0x00" : "32"
-                        }
-                    }
                 }
             }
         ],
@@ -43,6 +33,9 @@
         "transaction" : {
             "data" : [
                 "{ (seq (CREATE 0 0 (lll (seq (mstore 0 0x112233) (revert 0 32)) 0)) (SSTORE 0 (RETURNDATASIZE)) )}"
+            ],
+	    "data" : [
+		"0x600c80601360003960006000f0503d600055006211223360005260206000fd"
             ],
             "gasLimit" : [
                 "0x0a00000000"
