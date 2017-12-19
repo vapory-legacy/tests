@@ -32,10 +32,10 @@
         },
         "transaction" : {
             "data" : [
-                "{ (seq (CREATE 0 0 (lll (seq (mstore 0 0x112233) (revert 0 32)) 0)) (SSTORE 0 (RETURNDATASIZE)) )}"
+                "{ (SSTORE 0 1) }"
             ],
-	    "data" : [
-		"0x600c80601360003960006000f0503d600055006211223360005260206000fd"
+            "data" : [
+                "0x6001600055"
             ],
             "gasLimit" : [
                 "0x0a00000000"
