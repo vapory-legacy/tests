@@ -2,7 +2,7 @@ var testname = "TEST_mineBlockOnNode2 ";
 process.stdout.write(testname);
 
 var latestBlock;
-web3.eth.getBlockNumber(function(err, res){ onGetBlockNumber1(err, res); })
+web3.vap.getBlockNumber(function(err, res){ onGetBlockNumber1(err, res); })
 onGetBlockNumber1 = function (err, res)
 {
     latestBlock = res;
@@ -18,7 +18,7 @@ onResult = function (err,res)
 
    //wait for block being mined and propagated
    sleep(1000).then(() => {
-	web3.eth.getBlockNumber(function(err, res){ onGetBlockNumber(err, res); })
+	web3.vap.getBlockNumber(function(err, res){ onGetBlockNumber(err, res); })
    });
 }
 
