@@ -1,10 +1,10 @@
 {
-    "suicideSendEtherToMe_d0g0v0_Byzantium" : {
+    "suicideSendVaporToMe_d0g0v0_Byzantium" : {
         "_info" : {
             "comment" : "",
             "filledwith" : "cpp-1.3.0+commit.6e0ce939.Linux.g++",
             "lllcversion" : "Version: 0.4.18-develop.2017.9.25+commit.a72237f2.Linux.g++",
-            "source" : "src/BlockchainTestsFiller/GeneralStateTests/stSystemOperationsTest/suicideSendEtherToMe_d0g0v0Filler.json",
+            "source" : "src/BlockchainTestsFiller/GeneralStateTests/stSystemOperationsTest/suicideSendVaporToMe_d0g0v0Filler.json",
             "sourceHash" : "90cf80cdba4dfe51bbce255da093e09266874a7d28912e05a39cbbcf89e1b1b4"
         },
         "blocks" : [
@@ -99,12 +99,12 @@
             }
         }
     },
-    "suicideSendEtherToMe_d0g0v0_EIP150" : {
+    "suicideSendVaporToMe_d0g0v0_EIP150" : {
         "_info" : {
             "comment" : "",
             "filledwith" : "cpp-1.3.0+commit.6e0ce939.Linux.g++",
             "lllcversion" : "Version: 0.4.18-develop.2017.9.25+commit.a72237f2.Linux.g++",
-            "source" : "src/BlockchainTestsFiller/GeneralStateTests/stSystemOperationsTest/suicideSendEtherToMe_d0g0v0Filler.json",
+            "source" : "src/BlockchainTestsFiller/GeneralStateTests/stSystemOperationsTest/suicideSendVaporToMe_d0g0v0Filler.json",
             "sourceHash" : "90cf80cdba4dfe51bbce255da093e09266874a7d28912e05a39cbbcf89e1b1b4"
         },
         "blocks" : [
@@ -199,12 +199,12 @@
             }
         }
     },
-    "suicideSendEtherToMe_d0g0v0_EIP158" : {
+    "suicideSendVaporToMe_d0g0v0_EIP158" : {
         "_info" : {
             "comment" : "",
             "filledwith" : "cpp-1.3.0+commit.6e0ce939.Linux.g++",
             "lllcversion" : "Version: 0.4.18-develop.2017.9.25+commit.a72237f2.Linux.g++",
-            "source" : "src/BlockchainTestsFiller/GeneralStateTests/stSystemOperationsTest/suicideSendEtherToMe_d0g0v0Filler.json",
+            "source" : "src/BlockchainTestsFiller/GeneralStateTests/stSystemOperationsTest/suicideSendVaporToMe_d0g0v0Filler.json",
             "sourceHash" : "90cf80cdba4dfe51bbce255da093e09266874a7d28912e05a39cbbcf89e1b1b4"
         },
         "blocks" : [
@@ -299,12 +299,12 @@
             }
         }
     },
-    "suicideSendEtherToMe_d0g0v0_Frontier" : {
+    "suicideSendVaporToMe_d0g0v0_Frontier" : {
         "_info" : {
             "comment" : "",
             "filledwith" : "cpp-1.3.0+commit.6e0ce939.Linux.g++",
             "lllcversion" : "Version: 0.4.18-develop.2017.9.25+commit.a72237f2.Linux.g++",
-            "source" : "src/BlockchainTestsFiller/GeneralStateTests/stSystemOperationsTest/suicideSendEtherToMe_d0g0v0Filler.json",
+            "source" : "src/BlockchainTestsFiller/GeneralStateTests/stSystemOperationsTest/suicideSendVaporToMe_d0g0v0Filler.json",
             "sourceHash" : "90cf80cdba4dfe51bbce255da093e09266874a7d28912e05a39cbbcf89e1b1b4"
         },
         "blocks" : [
@@ -399,12 +399,12 @@
             }
         }
     },
-    "suicideSendEtherToMe_d0g0v0_Homestead" : {
+    "suicideSendVaporToMe_d0g0v0_Homestead" : {
         "_info" : {
             "comment" : "",
             "filledwith" : "cpp-1.3.0+commit.6e0ce939.Linux.g++",
             "lllcversion" : "Version: 0.4.18-develop.2017.9.25+commit.a72237f2.Linux.g++",
-            "source" : "src/BlockchainTestsFiller/GeneralStateTests/stSystemOperationsTest/suicideSendEtherToMe_d0g0v0Filler.json",
+            "source" : "src/BlockchainTestsFiller/GeneralStateTests/stSystemOperationsTest/suicideSendVaporToMe_d0g0v0Filler.json",
             "sourceHash" : "90cf80cdba4dfe51bbce255da093e09266874a7d28912e05a39cbbcf89e1b1b4"
         },
         "blocks" : [
