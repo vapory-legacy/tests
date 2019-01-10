@@ -1,13 +1,13 @@
 //requires npm
 //requires installed node v6
-//requires ethereum eth path on input
+//requires vapory vap path on input
 
 var async = require("async");
 var utils = require('./modules/utils.js');
 var testutils = require('./modules/testutils.js');
-var ethconsole = require('./modules/ethconsole.js');
+var vapconsole = require('./modules/vapconsole.js');
 
-var ethpath = process.argv[2];
+var vappath = process.argv[2];
 var testdir = __dirname + "/dynamic";
 var workdir = __dirname;
 
@@ -16,10 +16,10 @@ var dynamic = {};
 function cb(){}
 function main()
 {
-if (!ethpath || !utils.fileExists(ethpath))
+if (!vappath || !utils.fileExists(vappath))
 {
-	utils.cLog("Executable '" + ethpath + "' not found!");
-	utils.cLog("Please, set eth path. Usage: node main.js <ethpath>");
+	utils.cLog("Executable '" + vappath + "' not found!");
+	utils.cLog("Please, set vap path. Usage: node main.js <vappath>");
 	return;
 }
 
@@ -27,28 +27,28 @@ testutils.readTestsInFolder(workdir + "/scripts/tests");
 async.series([
 function(cb) {
 	utils.setDebug(false);
-	ethconsole.startNode(ethpath, testdir + "/ethnode1", testdir + "/genesis.json", 30305, cb);
+	vapconsole.startNode(vappath, testdir + "/vapnode1", testdir + "/genesis.json", 30305, cb);
 },
 function(cb) {
 	prepareDynamicVars(cb);
 },
 function(cb) {
-	ethconsole.stopNode(testdir + "/ethnode1", cb);
+	vapconsole.stopNode(testdir + "/vapnode1", cb);
 },
 function(cb) {
-	ethconsole.startNode(ethpath, testdir + "/ethnode1", testdir + "/genesis.json", 30305, cb);
+	vapconsole.startNode(vappath, testdir + "/vapnode1", testdir + "/genesis.json", 30305, cb);
 	dynamic["node1_port"] = "30305";
 },
 function(cb) {
-	ethconsole.startNode(ethpath, testdir + "/ethnode2", testdir + "/genesis.json", 30306, cb);
+	vapconsole.startNode(vappath, testdir + "/vapnode2", testdir + "/genesis.json", 30306, cb);
 	dynamic["node2_port"] = "30306";
 },
 function(cb) {
 	runAllTests(cb);	
 },
 function(cb) {
-	ethconsole.stopNode(testdir + "/ethnode1", cb);
-	ethconsole.stopNode(testdir + "/ethnode2", cb);
+	vapconsole.stopNode(testdir + "/vapnode1", cb);
+	vapconsole.stopNode(testdir + "/vapnode2", cb);
 }
 ], function() { 
 	utils.rmdir(testdir); }
@@ -61,18 +61,18 @@ function prepareDynamicVars(finished)
 {
   async.series([
 	function(cb) {		
-		ethconsole.runScriptOnNode(testdir + "/ethnode1", workdir + "/scripts/testNewAccount.js", {}, cb);
+		vapconsole.runScriptOnNode(testdir + "/vapnode1", workdir + "/scripts/testNewAccount.js", {}, cb);
 	},
 	function(cb) {
-		dynamic["account"] = ethconsole.getLastResponse();
+		dynamic["account"] = vapconsole.getLastResponse();
 		utils.mkdir(testdir);
 		testutils.generateCustomGenesis(testdir + '/genesis.json', workdir + "/scripts/genesis.json", dynamic["account"], cb);
 	},
 	function(cb) {
-		ethconsole.runScriptOnNode(testdir + "/ethnode1", workdir + "/scripts/getNodeInfo.js", {}, cb);
+		vapconsole.runScriptOnNode(testdir + "/vapnode1", workdir + "/scripts/getNodeInfo.js", {}, cb);
 	},
 	function(cb) {
-		dynamic["node1_ID"] = ethconsole.getLastResponse().id;
+		dynamic["node1_ID"] = vapconsole.getLastResponse().id;
 		cb();
 	}
   ], function() { finished(); })
@@ -93,11 +93,11 @@ function runAllTests(finished)
 		var testObject = testutils.getTestNumber(currentTest);
 		var nodepath;
 		if (testObject.node == '01')
-			nodepath = testdir + "/ethnode1";
+			nodepath = testdir + "/vapnode1";
 		if (testObject.node == '02')
-			nodepath = testdir + "/ethnode2";
+			nodepath = testdir + "/vapnode2";
 
-		ethconsole.runScriptOnNode(nodepath, testObject.file, dynamic, updateDynamic);
+		vapconsole.runScriptOnNode(nodepath, testObject.file, dynamic, updateDynamic);
 	   }
 	}
 
@@ -105,17 +105,17 @@ function runAllTests(finished)
 	{
 		async.series([
 			function(cb) {
-				ethconsole.runScriptOnNode(testdir + "/ethnode1", workdir + "/scripts/getLastBlock.js", {}, cb);
+				vapconsole.runScriptOnNode(testdir + "/vapnode1", workdir + "/scripts/getLastBlock.js", {}, cb);
 			},
 			function(cb) {
-				dynamic["node1_lastblock"] = ethconsole.getLastResponse();
+				dynamic["node1_lastblock"] = vapconsole.getLastResponse();
 				cb();
 			},
 			function(cb) {
-				ethconsole.runScriptOnNode(testdir + "/ethnode2", workdir +  "/scripts/getLastBlock.js", {}, cb);
+				vapconsole.runScriptOnNode(testdir + "/vapnode2", workdir +  "/scripts/getLastBlock.js", {}, cb);
 			},
 			function(cb) {
-				dynamic["node2_lastblock"] = ethconsole.getLastResponse();
+				dynamic["node2_lastblock"] = vapconsole.getLastResponse();
 				cb();
 			}
 	    	], function() { nextTest(); });
