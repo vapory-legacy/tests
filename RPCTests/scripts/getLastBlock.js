@@ -1,1 +1,1 @@
-web3.eth.getBlock("latest", function(err, res){  callback(err, res); })
+web3.vap.getBlock("latest", function(err, res){  callback(err, res); })
