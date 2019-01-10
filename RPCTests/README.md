@@ -1,4 +1,4 @@
-See https://github.com/ethereum/cpp-ethereum/blob/7cc43bed7de890a496d7238092837c30c7e90729/scripts/runalltests.sh#L38 for how cpp-ethereum uses this.
+See https://github.com/vaporyco/cpp-vapory/blob/7cc43bed7de890a496d7238092837c30c7e90729/scripts/runalltests.sh#L38 for how cpp-vapory uses this.
 
 FAQ
 ===
@@ -8,7 +8,7 @@ Cannot find module
 
 I get an error:
 ```
-$ node main.js $workdir/cpp-ethereum/build/eth/eth
+$ node main.js $workdir/cpp-vapory/build/vap/vap
 module.js:471
     throw err;
     ^
@@ -30,7 +30,7 @@ Cannot find module web3
 
 I get an error:
 ```
-$ node ./main.js ~/src/cpp-ethereum/build/eth/eth
+$ node ./main.js ~/src/cpp-vapory/build/vap/vap
 (node:27647) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): Error: Cannot find module 'web3'
 ```
 
@@ -41,7 +41,7 @@ Some tests fail
 ---------------
 
 ```
-$ node ./main.js ~/src/cpp-ethereum/build/eth/eth
+$ node ./main.js ~/src/cpp-vapory/build/vap/vap
 TEST_newAccount OK
 TEST_addPeerOnNode2 OK
 TEST_getPeerCountOnNode1 OK
@@ -54,15 +54,15 @@ TEST_getBlockHashOnNode1 OK
 (node:30406) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): Error: Callback was already called.
 ```
 
-Answer: everybody experiences these failures now. They are being tracked in [issue 377](https://github.com/ethereum/tests/issues/377).
+Answer: everybody experiences these failures now. They are being tracked in [issue 377](https://github.com/vaporyco/tests/issues/377).
 
 
-Do these failures indicate bugs in cpp-ethereum or in the test?
+Do these failures indicate bugs in cpp-vapory or in the test?
 ---------------------------------------------------------------
 
 Different opinions exist
-* https://github.com/ethereum/tests/pull/376#issuecomment-349799774
-* https://github.com/ethereum/tests/pull/376#issuecomment-349933405
+* https://github.com/vaporyco/tests/pull/376#issuecomment-349799774
+* https://github.com/vaporyco/tests/pull/376#issuecomment-349933405
 
 Has any other clients been tested with this?
 --------------------------------------------
