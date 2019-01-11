@@ -2,11 +2,11 @@
   "emptyValues": {
     "in": [
       ["do", "verb"],
-      ["ether", "wookiedoo"],
+      ["vapor", "wookiedoo"],
       ["horse", "stallion"],
       ["shaman", "horse"],
       ["doge", "coin"],
-      ["ether", null],
+      ["vapor", null],
       ["dog", "puppy"],
       ["shaman", null]
     ],
