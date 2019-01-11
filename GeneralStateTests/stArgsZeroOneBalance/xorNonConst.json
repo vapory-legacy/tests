@@ -4,7 +4,7 @@
             "comment" : "",
             "filledwith" : "cpp-1.3.0+commit.13735e44.Linux.g++",
             "lllcversion" : "Version: 0.4.20-develop.2018.1.8+commit.2548228b.Linux.g++",
-            "source" : "src/GeneralStateTestsFiller/stEvmJit/xorNonConstFiller.yml",
+            "source" : "src/GeneralStateTestsFiller/stVvmJit/xorNonConstFiller.yml",
             "sourceHash" : "836b3197269b3ab11254722f79589a917df3057bc95dc676e223768619224e45"
         },
         "env" : {

@@ -4,7 +4,7 @@
             "comment" : "",
             "filledwith" : "cpp-1.3.0+commit.13735e44.Linux.g++",
             "lllcversion" : "Version: 0.4.20-develop.2018.1.8+commit.2548228b.Linux.g++",
-            "source" : "src/GeneralStateTestsFiller/stEvmJit/delegatecallNonConstFiller.yml",
+            "source" : "src/GeneralStateTestsFiller/stVvmJit/delegatecallNonConstFiller.yml",
             "sourceHash" : "6b8b46c0a3a9278435d443d17994125ea1344b6a41027f57280f0861a9473083"
         },
         "env" : {

@@ -4,7 +4,7 @@
             "comment" : "",
             "filledwith" : "cpp-1.3.0+commit.13735e44.Linux.g++",
             "lllcversion" : "Version: 0.4.20-develop.2018.1.8+commit.2548228b.Linux.g++",
-            "source" : "src/BlockchainTestsFiller/GeneralStateTests/stEvmJit/delegatecallNonConst_d1g0v0Filler.json",
+            "source" : "src/BlockchainTestsFiller/GeneralStateTests/stVvmJit/delegatecallNonConst_d1g0v0Filler.json",
             "sourceHash" : "12c83ed102dcb0507de8dc9c5862c944eb154e58ed720be050f69e9d600b2c43"
         },
         "blocks" : [
@@ -112,7 +112,7 @@
             "comment" : "",
             "filledwith" : "cpp-1.3.0+commit.13735e44.Linux.g++",
             "lllcversion" : "Version: 0.4.20-develop.2018.1.8+commit.2548228b.Linux.g++",
-            "source" : "src/BlockchainTestsFiller/GeneralStateTests/stEvmJit/delegatecallNonConst_d1g0v0Filler.json",
+            "source" : "src/BlockchainTestsFiller/GeneralStateTests/stVvmJit/delegatecallNonConst_d1g0v0Filler.json",
             "sourceHash" : "12c83ed102dcb0507de8dc9c5862c944eb154e58ed720be050f69e9d600b2c43"
         },
         "blocks" : [
@@ -220,7 +220,7 @@
             "comment" : "",
             "filledwith" : "cpp-1.3.0+commit.13735e44.Linux.g++",
             "lllcversion" : "Version: 0.4.20-develop.2018.1.8+commit.2548228b.Linux.g++",
-            "source" : "src/BlockchainTestsFiller/GeneralStateTests/stEvmJit/delegatecallNonConst_d1g0v0Filler.json",
+            "source" : "src/BlockchainTestsFiller/GeneralStateTests/stVvmJit/delegatecallNonConst_d1g0v0Filler.json",
             "sourceHash" : "12c83ed102dcb0507de8dc9c5862c944eb154e58ed720be050f69e9d600b2c43"
         },
         "blocks" : [
@@ -328,7 +328,7 @@
             "comment" : "",
             "filledwith" : "cpp-1.3.0+commit.13735e44.Linux.g++",
             "lllcversion" : "Version: 0.4.20-develop.2018.1.8+commit.2548228b.Linux.g++",
-            "source" : "src/BlockchainTestsFiller/GeneralStateTests/stEvmJit/delegatecallNonConst_d1g0v0Filler.json",
+            "source" : "src/BlockchainTestsFiller/GeneralStateTests/stVvmJit/delegatecallNonConst_d1g0v0Filler.json",
             "sourceHash" : "12c83ed102dcb0507de8dc9c5862c944eb154e58ed720be050f69e9d600b2c43"
         },
         "blocks" : [
@@ -436,7 +436,7 @@
             "comment" : "",
             "filledwith" : "cpp-1.3.0+commit.13735e44.Linux.g++",
             "lllcversion" : "Version: 0.4.20-develop.2018.1.8+commit.2548228b.Linux.g++",
-            "source" : "src/BlockchainTestsFiller/GeneralStateTests/stEvmJit/delegatecallNonConst_d1g0v0Filler.json",
+            "source" : "src/BlockchainTestsFiller/GeneralStateTests/stVvmJit/delegatecallNonConst_d1g0v0Filler.json",
             "sourceHash" : "12c83ed102dcb0507de8dc9c5862c944eb154e58ed720be050f69e9d600b2c43"
         },
         "blocks" : [
@@ -543,7 +543,7 @@
             "comment" : "",
             "filledwith" : "cpp-1.3.0+commit.13735e44.Linux.g++",
             "lllcversion" : "Version: 0.4.20-develop.2018.1.8+commit.2548228b.Linux.g++",
-            "source" : "src/BlockchainTestsFiller/GeneralStateTests/stEvmJit/delegatecallNonConst_d1g0v0Filler.json",
+            "source" : "src/BlockchainTestsFiller/GeneralStateTests/stVvmJit/delegatecallNonConst_d1g0v0Filler.json",
             "sourceHash" : "12c83ed102dcb0507de8dc9c5862c944eb154e58ed720be050f69e9d600b2c43"
         },
         "blocks" : [

@@ -4,7 +4,7 @@
             "comment" : "",
             "filledwith" : "cpp-1.3.0+commit.13735e44.Linux.g++",
             "lllcversion" : "Version: 0.4.20-develop.2018.1.8+commit.2548228b.Linux.g++",
-            "source" : "src/BlockchainTestsFiller/GeneralStateTests/stEvmJit/suicideNonConst_d0g0v0Filler.json",
+            "source" : "src/BlockchainTestsFiller/GeneralStateTests/stVvmJit/suicideNonConst_d0g0v0Filler.json",
             "sourceHash" : "f29d0cfcf2ce85314764d865727534517a0d8a3db53ae508e580f2c0e5562260"
         },
         "blocks" : [
@@ -104,7 +104,7 @@
             "comment" : "",
             "filledwith" : "cpp-1.3.0+commit.13735e44.Linux.g++",
             "lllcversion" : "Version: 0.4.20-develop.2018.1.8+commit.2548228b.Linux.g++",
-            "source" : "src/BlockchainTestsFiller/GeneralStateTests/stEvmJit/suicideNonConst_d0g0v0Filler.json",
+            "source" : "src/BlockchainTestsFiller/GeneralStateTests/stVvmJit/suicideNonConst_d0g0v0Filler.json",
             "sourceHash" : "f29d0cfcf2ce85314764d865727534517a0d8a3db53ae508e580f2c0e5562260"
         },
         "blocks" : [
@@ -204,7 +204,7 @@
             "comment" : "",
             "filledwith" : "cpp-1.3.0+commit.13735e44.Linux.g++",
             "lllcversion" : "Version: 0.4.20-develop.2018.1.8+commit.2548228b.Linux.g++",
-            "source" : "src/BlockchainTestsFiller/GeneralStateTests/stEvmJit/suicideNonConst_d0g0v0Filler.json",
+            "source" : "src/BlockchainTestsFiller/GeneralStateTests/stVvmJit/suicideNonConst_d0g0v0Filler.json",
             "sourceHash" : "f29d0cfcf2ce85314764d865727534517a0d8a3db53ae508e580f2c0e5562260"
         },
         "blocks" : [
@@ -311,7 +311,7 @@
             "comment" : "",
             "filledwith" : "cpp-1.3.0+commit.13735e44.Linux.g++",
             "lllcversion" : "Version: 0.4.20-develop.2018.1.8+commit.2548228b.Linux.g++",
-            "source" : "src/BlockchainTestsFiller/GeneralStateTests/stEvmJit/suicideNonConst_d0g0v0Filler.json",
+            "source" : "src/BlockchainTestsFiller/GeneralStateTests/stVvmJit/suicideNonConst_d0g0v0Filler.json",
             "sourceHash" : "f29d0cfcf2ce85314764d865727534517a0d8a3db53ae508e580f2c0e5562260"
         },
         "blocks" : [
@@ -411,7 +411,7 @@
             "comment" : "",
             "filledwith" : "cpp-1.3.0+commit.13735e44.Linux.g++",
             "lllcversion" : "Version: 0.4.20-develop.2018.1.8+commit.2548228b.Linux.g++",
-            "source" : "src/BlockchainTestsFiller/GeneralStateTests/stEvmJit/suicideNonConst_d0g0v0Filler.json",
+            "source" : "src/BlockchainTestsFiller/GeneralStateTests/stVvmJit/suicideNonConst_d0g0v0Filler.json",
             "sourceHash" : "f29d0cfcf2ce85314764d865727534517a0d8a3db53ae508e580f2c0e5562260"
         },
         "blocks" : [
@@ -518,7 +518,7 @@
             "comment" : "",
             "filledwith" : "cpp-1.3.0+commit.13735e44.Linux.g++",
             "lllcversion" : "Version: 0.4.20-develop.2018.1.8+commit.2548228b.Linux.g++",
-            "source" : "src/BlockchainTestsFiller/GeneralStateTests/stEvmJit/suicideNonConst_d0g0v0Filler.json",
+            "source" : "src/BlockchainTestsFiller/GeneralStateTests/stVvmJit/suicideNonConst_d0g0v0Filler.json",
             "sourceHash" : "f29d0cfcf2ce85314764d865727534517a0d8a3db53ae508e580f2c0e5562260"
         },
         "blocks" : [

@@ -4,7 +4,7 @@
             "comment" : "",
             "filledwith" : "cpp-1.3.0+commit.13735e44.Linux.g++",
             "lllcversion" : "Version: 0.4.20-develop.2018.1.8+commit.2548228b.Linux.g++",
-            "source" : "src/GeneralStateTestsFiller/stEvmJit/mstore8NonConstFiller.yml",
+            "source" : "src/GeneralStateTestsFiller/stVvmJit/mstore8NonConstFiller.yml",
             "sourceHash" : "b5ea9cc93c82421d880d9f8a3945bb0fdaf34208bb25ce33223c70f4c8685862"
         },
         "env" : {

@@ -4,7 +4,7 @@
             "comment" : "",
             "filledwith" : "cpp-1.3.0+commit.13735e44.Linux.g++",
             "lllcversion" : "Version: 0.4.20-develop.2018.1.8+commit.2548228b.Linux.g++",
-            "source" : "src/GeneralStateTestsFiller/stEvmJit/notNonConstFiller.yml",
+            "source" : "src/GeneralStateTestsFiller/stVvmJit/notNonConstFiller.yml",
             "sourceHash" : "7df1cc880dfa72859d62ff87577676600410b3efe089f41a6f2845796b1da6ca"
         },
         "env" : {

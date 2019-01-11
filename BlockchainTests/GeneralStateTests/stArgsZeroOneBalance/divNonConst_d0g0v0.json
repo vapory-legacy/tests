@@ -4,7 +4,7 @@
             "comment" : "",
             "filledwith" : "cpp-1.3.0+commit.13735e44.Linux.g++",
             "lllcversion" : "Version: 0.4.20-develop.2018.1.8+commit.2548228b.Linux.g++",
-            "source" : "src/BlockchainTestsFiller/GeneralStateTests/stEvmJit/divNonConst_d0g0v0Filler.json",
+            "source" : "src/BlockchainTestsFiller/GeneralStateTests/stVvmJit/divNonConst_d0g0v0Filler.json",
             "sourceHash" : "4261de7d9038de335f10d49c4979dd2d3b4401e9c8aa72cd664baa7431a65b21"
         },
         "blocks" : [
@@ -111,7 +111,7 @@
             "comment" : "",
             "filledwith" : "cpp-1.3.0+commit.13735e44.Linux.g++",
             "lllcversion" : "Version: 0.4.20-develop.2018.1.8+commit.2548228b.Linux.g++",
-            "source" : "src/BlockchainTestsFiller/GeneralStateTests/stEvmJit/divNonConst_d0g0v0Filler.json",
+            "source" : "src/BlockchainTestsFiller/GeneralStateTests/stVvmJit/divNonConst_d0g0v0Filler.json",
             "sourceHash" : "4261de7d9038de335f10d49c4979dd2d3b4401e9c8aa72cd664baa7431a65b21"
         },
         "blocks" : [
@@ -218,7 +218,7 @@
             "comment" : "",
             "filledwith" : "cpp-1.3.0+commit.13735e44.Linux.g++",
             "lllcversion" : "Version: 0.4.20-develop.2018.1.8+commit.2548228b.Linux.g++",
-            "source" : "src/BlockchainTestsFiller/GeneralStateTests/stEvmJit/divNonConst_d0g0v0Filler.json",
+            "source" : "src/BlockchainTestsFiller/GeneralStateTests/stVvmJit/divNonConst_d0g0v0Filler.json",
             "sourceHash" : "4261de7d9038de335f10d49c4979dd2d3b4401e9c8aa72cd664baa7431a65b21"
         },
         "blocks" : [
@@ -325,7 +325,7 @@
             "comment" : "",
             "filledwith" : "cpp-1.3.0+commit.13735e44.Linux.g++",
             "lllcversion" : "Version: 0.4.20-develop.2018.1.8+commit.2548228b.Linux.g++",
-            "source" : "src/BlockchainTestsFiller/GeneralStateTests/stEvmJit/divNonConst_d0g0v0Filler.json",
+            "source" : "src/BlockchainTestsFiller/GeneralStateTests/stVvmJit/divNonConst_d0g0v0Filler.json",
             "sourceHash" : "4261de7d9038de335f10d49c4979dd2d3b4401e9c8aa72cd664baa7431a65b21"
         },
         "blocks" : [
@@ -432,7 +432,7 @@
             "comment" : "",
             "filledwith" : "cpp-1.3.0+commit.13735e44.Linux.g++",
             "lllcversion" : "Version: 0.4.20-develop.2018.1.8+commit.2548228b.Linux.g++",
-            "source" : "src/BlockchainTestsFiller/GeneralStateTests/stEvmJit/divNonConst_d0g0v0Filler.json",
+            "source" : "src/BlockchainTestsFiller/GeneralStateTests/stVvmJit/divNonConst_d0g0v0Filler.json",
             "sourceHash" : "4261de7d9038de335f10d49c4979dd2d3b4401e9c8aa72cd664baa7431a65b21"
         },
         "blocks" : [
@@ -539,7 +539,7 @@
             "comment" : "",
             "filledwith" : "cpp-1.3.0+commit.13735e44.Linux.g++",
             "lllcversion" : "Version: 0.4.20-develop.2018.1.8+commit.2548228b.Linux.g++",
-            "source" : "src/BlockchainTestsFiller/GeneralStateTests/stEvmJit/divNonConst_d0g0v0Filler.json",
+            "source" : "src/BlockchainTestsFiller/GeneralStateTests/stVvmJit/divNonConst_d0g0v0Filler.json",
             "sourceHash" : "4261de7d9038de335f10d49c4979dd2d3b4401e9c8aa72cd664baa7431a65b21"
         },
         "blocks" : [

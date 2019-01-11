@@ -4,7 +4,7 @@
             "comment" : "",
             "filledwith" : "cpp-1.3.0+commit.13735e44.Linux.g++",
             "lllcversion" : "Version: 0.4.20-develop.2018.1.8+commit.2548228b.Linux.g++",
-            "source" : "src/GeneralStateTestsFiller/stEvmJit/jumpNonConstFiller.yml",
+            "source" : "src/GeneralStateTestsFiller/stVvmJit/jumpNonConstFiller.yml",
             "sourceHash" : "3e6a3d0efb9a30d9b1adc9d6186f3f1ab2dfae58d26ce8491c75af89bbb01b67"
         },
         "env" : {
