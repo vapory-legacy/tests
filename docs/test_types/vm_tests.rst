@@ -7,7 +7,7 @@ The VM tests aim is to test the basic workings of the VM in
 isolation.
 
 =================== ==============================================================
-Location            `/VMTests <https://github.com/ethereum/tests/tree/develop/VMTests>`_
+Location            `/VMTests <https://github.com/vaporyco/tests/tree/develop/VMTests>`_
 Supported Hardforks Currently only Homestead
 Status              Actively supported
 =================== ==============================================================

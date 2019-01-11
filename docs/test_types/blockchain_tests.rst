@@ -6,7 +6,7 @@ Blockchain Tests
 The blockchain tests aim is to test the basic verification of a blockchain.
 
 =================== ==============================================================
-Location            `/BlockchainTests <https://github.com/ethereum/tests/tree/develop/BlockchainTests>`_
+Location            `/BlockchainTests <https://github.com/vaporyco/tests/tree/develop/BlockchainTests>`_
 Supported Hardforks ``Byzantium`` | ``Constantinople`` | ``EIP150`` | ``EIP158`` | ``Frontier`` | ``Homestead``
 Status              Actively supported
 =================== ==============================================================
@@ -18,7 +18,7 @@ A set of pre-existing accounts are detailed in the ``pre`` portion and form the
 world state of the genesis block.
 
 Of special notice is the 
-`/BlockchainTests/GeneralStateTests <https://github.com/ethereum/tests/tree/develop/BlockchainTests/GeneralStateTests>`_
+`/BlockchainTests/GeneralStateTests <https://github.com/vaporyco/tests/tree/develop/BlockchainTests/GeneralStateTests>`_
 folder within the blockchain tests folder structure, which contains a copy of the
 :ref:`state_tests` but executes them within the logic of the blockchain tests.
 
@@ -169,4 +169,4 @@ It is used to define a situation when you have 3 blocks already imported but the
 
 ``"chainname" = "string"`` This is used for defining forks in the same test. You could mine blocks to chain "A": 1, 2, 3 then to chain "B": 1, 2, 3, 4 (chainB becomes primary). Then again to chain "A": 4, 5, 6  (chainA becomes primary) and so on. chainname could also be defined in uncle header section. If defined in uncle header it tells on which chain's block uncle header would be populated from. When running test, this field could be used for information purpose only.
 
-``"chainnetwork" = "string"`` Defines on which network rules this block was mined. (see the difference https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2.mediawiki). When running test, this field could be used for information purpose only.
+``"chainnetwork" = "string"`` Defines on which network rules this block was mined. (see the difference https://github.com/vaporyco/EIPs/blob/master/EIPS/eip-2.mediawiki). When running test, this field could be used for information purpose only.

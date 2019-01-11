@@ -6,7 +6,7 @@ General State Tests
 The state tests aim is to test the basic workings of the state in isolation.
 
 =================== ==============================================================
-Location            `/GeneralStateTests <https://github.com/ethereum/tests/tree/develop/GeneralStateTests>`_
+Location            `/GeneralStateTests <https://github.com/vaporyco/tests/tree/develop/GeneralStateTests>`_
 Supported Hardforks ``Byzantium`` | ``Constantinople`` | ``EIP150`` | ``EIP158`` | ``Frontier`` | ``Homestead``
 Status              Actively supported
 =================== ==============================================================
@@ -31,7 +31,7 @@ and ``pre`` then check their results against ``logs``, ``out``, and ``post``.
 
 .. note::
    The structure of state tests was reworked lately, see the associated discussion
-   `here <https://github.com/ethereum/EIPs/issues/176>`_.
+   `here <https://github.com/vaporyco/EIPs/issues/176>`_.
 
 Test Structure
 --------------
@@ -104,7 +104,7 @@ The env Section
 | ``currentGasLimit``	
 |	The current block's gas limit.
 | ``currentNumber``
-|	The current block's number. Also indicates network rules for the transaction. Since blocknumber = **1000000** Homestead rules are applied to transaction. (see https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2.mediawiki)
+|	The current block's number. Also indicates network rules for the transaction. Since blocknumber = **1000000** Homestead rules are applied to transaction. (see https://github.com/vaporyco/EIPs/blob/master/EIPS/eip-2.mediawiki)
 | ``currentTimestamp``
 |	The current block's timestamp.
 | ``previousHash``

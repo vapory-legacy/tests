@@ -3,11 +3,11 @@
 RLP Tests
 =========
 
-Describes an **RLP** (https://github.com/ethereum/wiki/wiki/RLP) encoding using 
+Describes an **RLP** (https://github.com/vaporyco/wiki/wiki/RLP) encoding using 
 the .json file.
 
 =================== ==============================================================
-Location            `/RLPTests <https://github.com/ethereum/tests/tree/develop/RLPTests>`_
+Location            `/RLPTests <https://github.com/vaporyco/tests/tree/develop/RLPTests>`_
 Supported Hardforks Hardfork-independent
 Status              Actively supported
 =================== ==============================================================
