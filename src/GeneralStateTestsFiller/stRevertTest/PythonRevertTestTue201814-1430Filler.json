@@ -1,7 +1,7 @@
 {
   "PythonRevertTestTue201814-1430": {
     "_info" : {
-	"comment" : "A random test that had failed in Python ethereum implementation"
+	"comment" : "A random test that had failed in Python vapory implementation"
     },
     "pre": {
       "0xd94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
