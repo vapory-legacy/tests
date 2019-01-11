@@ -1,10 +1,10 @@
 {
-    "suicideSendEtherToMe" : {
+    "suicideSendVaporToMe" : {
         "_info" : {
             "comment" : "",
             "filledwith" : "cpp-1.3.0+commit.6e0ce939.Linux.g++",
             "lllcversion" : "Version: 0.4.18-develop.2017.9.25+commit.a72237f2.Linux.g++",
-            "source" : "src/GeneralStateTestsFiller/stSystemOperationsTest/suicideSendEtherToMeFiller.json",
+            "source" : "src/GeneralStateTestsFiller/stSystemOperationsTest/suicideSendVaporToMeFiller.json",
             "sourceHash" : "a4fc18825c0d60e35e076fd4a216f05462ea933b7059ef1b083930a44a817195"
         },
         "env" : {
