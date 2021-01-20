@@ -4,22 +4,22 @@
 
 mkdir --parents ~/testout
 cd ~/testout
-export EVMJIT="-cache=0"
+export VVMJIT="-cache=0"
 while [ 1 ]
 do	
-	TEST="$(docker run --rm --entrypoint=\"/cpp-ethereum/build/test/createRandomStateTest\" ethereum/cppjit-testrunner)"
+	TEST="$(docker run --rm --entrypoint=\"/cpp-vapory/build/test/createRandomStateTest\" vapory/cppjit-testrunner)"
 	# echo "$TEST"
 	
-	# test pyethereum
-	OUTPUT_PYTHON="$(docker run --rm ethereum/python-testrunner --notrace <<< "$TEST")"
+	# test pyvapory
+	OUTPUT_PYTHON="$(docker run --rm vapory/python-testrunner --notrace <<< "$TEST")"
 	RESULT_PYTHON=$?
 
 	# test go
-	OUTPUT_GO="$(docker run --rm ethereum/go-testrunner "$TEST")"
+	OUTPUT_GO="$(docker run --rm vapory/go-testrunner "$TEST")"
 	RESULT_GO=$?
 	
 	# test cpp-jit
-	OUTPUT_CPPJIT="$(docker run --rm ethereum/cppjit-testrunner "$TEST")"
+	OUTPUT_CPPJIT="$(docker run --rm vapory/cppjit-testrunner "$TEST")"
 	RESULT_CPPJIT=$?
 
 	# go fails
